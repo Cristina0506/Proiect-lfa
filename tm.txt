@@ -1,0 +1,10 @@
+
+STATES=q0,q1,q2,qreject
+ALPHABET=1,B
+START=q0
+ACCEPT=q2
+REJECT=qreject
+TRANSITIONS=
+q0,1->q1,1,R
+q1,1->q1,1,R
+q1,B->q2,B,S
