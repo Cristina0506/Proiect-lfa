@@ -46,16 +46,5 @@ pda_test.py
 
 tm_test.py
 
-Poți modifica șirurile testate sau fișierele .txt cu alte tranziții și stări.
+Puteti modifica șirurile testate sau fișierele .txt cu alte tranziții și stări.
 
-Format fișier automat (exemplu simplu)
-txt
-Copy
-Edit
-STATES=q0,q1
-ALPHABET=0,1
-START=q0
-ACCEPT=q1
-TRANSITIONS=
-q0,0->q0
-q0,1->q1
